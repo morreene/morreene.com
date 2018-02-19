@@ -1,8 +1,18 @@
+{% assign post = include.post %}
+
+
 <!-- Header -->
   <header id="header">
     <a href="{{ '' | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> {{ site.subtitle }}</a>
     <ul class="icons">
-      {% if site.twitter_url %}
+      {% assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" %}
+      <!-- <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:post_format }}</time> -->
+
+      <li><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date:post_format }}</time></li>
+
+
+
+      <!-- {% if site.twitter_url %}
       <li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
       {% endif %}
       {% if site.googleplus_url %}
@@ -31,6 +41,6 @@
       {% endif %}
       {% if site.linkedin_url %}
       <li><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-      {% endif %}
+      {% endif %} -->
     </ul>
   </header>

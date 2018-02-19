@@ -1,8 +1,6 @@
 ---
-layout: post
-title: 中国环保政策对世界贸易投资的影响
-categories: [china, trade]
-tags: [china, environment, trade]
+layout: page
+title: About
 ---
 
 <aside class="message message-newsletter related mb4" role="complementary">
