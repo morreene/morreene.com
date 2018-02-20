@@ -2,8 +2,92 @@
 layout: default
 ---
 
-<!-- Section -->
+
+
 <section>
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    {{ post.excerpt }}
+  </div>
+{% endfor %}
+
+<!-- Pagination links -->
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  <ul class="pagination">
+    <li>
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="button">Previous</a>
+      {% else %}
+        <span class="button disabled">Previous</span>
+      {% endif %}
+    </li>
+    <li>
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <a href="#" class="page active">{{ page }}</a>
+        {% elsif page == 1 %}
+          <a href="{{ '/'}}" class='page'>{{ page }}</a>
+          {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class='page'>{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+    </li>
+    <li>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="button">Next</a>
+      {% else %}
+        <span class="button disabled">Next</span>
+      {% endif %}
+    </li>
+  </ul>
+</div>
+{% endif %}
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Section -->
+<!-- <section>
 	<header class="major">
 		<h2>Erat laciniaaaaa</h2>
 	</header>
@@ -37,10 +121,10 @@ layout: default
 			</div>
 		</article>
 	</div>
-</section>
+</section> -->
 
 <!-- Section -->
-<section>
+<!-- <section>
 	<header class="major">
 		<h2>Ipsum sed dolor</h2>
 	</header>
@@ -94,4 +178,4 @@ layout: default
 			</ul>
 		</article>
 	</div>
-</section>
+</section> -->
