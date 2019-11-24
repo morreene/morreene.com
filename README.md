@@ -1,8 +1,8 @@
-# (WIP) Editorial - Jekyll Theme
+# Dimension - Jekyll Theme
 
-A Jekyll version of the "Editorial" theme by [HTML5 UP](https://html5up.net/).
+A Jekyll version of the "Dimension" theme by [HTML5 UP](https://html5up.net/).
 
-![Editorial Theme](assets/images/screenshot.jpg "Editorial Theme")
+![Dimension Theme](assets/images/screenshot.jpg "Dimension Theme")
 
 # How to Use
 
@@ -11,7 +11,7 @@ or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontm
 and [creating pages](https://jekyllrb.com/docs/pages/).
 
 - **GitLab**: Simply fork this repository and start editing the `_config.yml` file!
-- **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file! The `.gitlab-ci.yml` file is only needed for GitLab Pages, so feel free to delete this if you are using GitHub instead.
+- **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file.
 
 # Added Features
 
@@ -21,10 +21,10 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 
 You can use the following custom parameters in `_config.yml`.
 
-## Site
-- `subtitle` sets the text for the lighter colored text next to your site's title.
+## Site Icon
+- `icon` sets the class for your site's [Font Awesome](http://fontawesome.io/icons/) icon.
 
-## Social
+## Social settings
 - `500px_url`
 - `facebook_url`
 - `github_url`
@@ -36,20 +36,28 @@ You can use the following custom parameters in `_config.yml`.
 - `slack_url`
 - `twitter_url`
 
+# Issues
+
+If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/dimension-jekyll-theme) and I will be more than happy to help!
+
+Alternatively, you can open an issue via email by emailing [incoming+andrewbanchich/dimension-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/dimension-jekyll-theme@incoming.gitlab.com).
+
+The GitHub repository is simply a mirror of the GitLab repository.
+
 # Credits
 
 Original README from HTML5 UP:
 
 ```
-Editorial by HTML5 UP
+Dimension by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-Say hello to Editorial, a blog/magazine-ish template built around a toggleable "locking"
-sidebar (scroll down to see what I mean) and an accordion-style menu. Not the usual landing
-page/portfolio affair you'd expect to see at HTML5 UP, but I figured for my 41st (!!!)
-template I'd change it up a little. Enjoy :)
+This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
+and a cool depth effect (click on a menu item to see what I mean). Simple, fully
+responsive, and kitted out with all the usual pre-styled elements you'd expect.
+Hope you dig it :)
 
 Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
 you can use for pretty much whatever.
@@ -70,9 +78,7 @@ Credits:
 
 	Other:
 		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
 		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
 		Skel (skel.io)
 ```
 

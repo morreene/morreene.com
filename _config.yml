@@ -1,9 +1,8 @@
 # Site settings
-title: Morreene
-subtitle: by HTML5 UP
+title: Dimension
 email: youremailaddress@gmail.com
-description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
-baseurl: "" # the subpath of your site, e.g. /blog
+description: A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />for free under the <a href="https://html5up.net/license">Creative Commons</a> license.
+baseurl: "/dimension-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
@@ -13,57 +12,21 @@ zip_code: 55555
 country: United States of America
 phone: (716) 555-5555
 
+icon: fa-diamond # Font Awesome class for your site's icon
+
 # Social settings
-500px_url:
 facebook_url:
 github_url:
 gitlab_url: https://gitlab.com/u/andrewbanchich
 googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
+instagram_url:
 linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
 pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/andrewbanchich
 
-# Sass building
-sass:
-    sass_dir: _sass
-
 # Build settings
 markdown: kramdown
 
-
-
-
-
-
-
-plugins:
-  # - jekyll-avatar
-  # - jekyll-default-layout
-  # - jekyll-feed
-  # - jekyll-gist
-  # - jekyll-optional-front-matter
-  - jekyll-paginate
-  # - jekyll-readme-index
-  # - jekyll-redirect-from
-  - jekyll-relative-links
-  # - jekyll-remote-theme
-  - jekyll-seo-tag
-  # - jekyll-sitemap
-  # - jekyll-titles-from-headings
-
-paginate:              5
-paginate_path:         /page-:num/
-
-# Collections
-# ========================================================================================
-
-collections:
-  featured_categories:
-    permalink:         /category/:name/
-    output:            true
-
-  featured_tags:
-    permalink:         /tag/:name/
-    output:            true
+sass:
+style: compressed
