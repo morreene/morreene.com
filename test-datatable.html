@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+        <!-- <style>
+            table {
+                border-collapse: collapse;
+                border: 2px black solid;
+                font: 12px sans-serif;
+            }
+            td {
+                border: 1px black solid;
+                padding: 5px;
+            }
+        </style> -->
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+</head>
+<body>
+  <table id="example" class="display" width="100%">
+    <thead>
+      <tr>
+        <th colspan="3">Member</th>
+        <th colspan="2">2010</th>
+        <th colspan="2">2011</th>
+        <th colspan="2">2012</th>
+        <th colspan="2">2013</th>
+        <th colspan="2">2014</th>
+        <th colspan="2">2015</th>
+        <th colspan="2">2016</th>
+        <th colspan="2">2017</th>
+        <th colspan="2">2018</th>
+        <th colspan="2">2019</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>MFN</th>
+        <th>non-MFN</th>
+        <th>MFN</th>
+        <th>non-MFN</th>
+        <th>MFN</th>
+        <th>non-MFN</th>
+        <th>MFN</th>
+        <th>non-MFN</th>
+        <th>MFN</th>
+        <th>non-MFN</th>
+        <th>MFN</th>
+        <th>non-MFN</th>
+        <th>MFN</th>
+        <th>non-MFN</th>
+        <th>MFN</th>
+        <th>non-MFN</th>
+        <th>MFN</th>
+        <th>non-MFN</th>
+        <th>MFN</th>
+        <th>non-MFN</th>
+      </tr>
+    </thead>
+  </table>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+
+  <script type="text/javascript"charset="utf-8">
+    // d3.text("https://morreene.com/data2.csv", function(data) {
+    d3.text("data2.csv", function(data) {
+        var parsedCSV = d3.csv.parseRows(data);
+        $(document).ready(function() {
+            $('#example').DataTable( {
+                data: parsedCSV,
+                scrollX: true,
+            });
+        } );
+      });
+  </script>
+</body>
+</html>
