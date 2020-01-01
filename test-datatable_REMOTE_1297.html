@@ -19,13 +19,8 @@
 <body>
   <table id="example" class="display" width="100%">
     <thead>
-<<<<<<< HEAD
-      <tr>ssssssssssssssssssssss
-        <th colspan="2">Member1</th>
-=======
       <tr>
         <th colspan="2">Member</th>
->>>>>>> 7f3ee8974483886a6e5351459391e6f606124d3c
         <th colspan="2">2010</th>
         <th colspan="2">2011</th>
         <th colspan="2">2012</th>
@@ -41,11 +36,7 @@
         <!-- <th></th> -->
         <th></th>
         <th></th>
-<<<<<<< HEAD
-        <th>MFNyyyyyyyyyyyyy</th>
-=======
         <th>MFN</th>
->>>>>>> 7f3ee8974483886a6e5351459391e6f606124d3c
         <th>non-MFN</th>
         <th>MFN</th>
         <th>non-MFN</th>
@@ -75,23 +66,16 @@
 
   <script type="text/javascript"charset="utf-8">
     // d3.text("https://morreene.com/data2.csv", function(data) {
-<<<<<<< HEAD
-    d3.text("data2.csv", function(data) {
-=======
     d3.text("https://morreene.com/data2.csv", function(data) {
->>>>>>> 7f3ee8974483886a6e5351459391e6f606124d3c
         var parsedCSV = d3.csv.parseRows(data);
         $(document).ready(function() {
             $('#example').DataTable( {
                 data: parsedCSV,
                 scrollX: true,
-<<<<<<< HEAD
-=======
                 // paging:   false,
                 // ordering: false,
                 info:     false,
 
->>>>>>> 7f3ee8974483886a6e5351459391e6f606124d3c
                 columnDefs: [
                                 {
                                     "targets": [ 0 ],
