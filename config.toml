@@ -47,19 +47,16 @@ googleAnalytics = ""
   home = true
 
   [[params.navlinks]]
+  name = "Photography"
+  url = "https://photos.morreene.com/"
+
+  [[params.navlinks]]
   name = "About"
   url = "about/"
 
   [[params.navlinks]]
-  name = "Photography"
-  url = "https://photos.morreene.com/"
-
-
-
-  [[params.navlinks]]
   name = "Contact"
   url = "contact/"
-
 
   [params.social]
   # facebook      = "full page or profile url in facebook"
@@ -74,5 +71,3 @@ googleAnalytics = ""
   # youtube       = "full profile url in youtube"
   # whatsapp      = "wa.me service link"
 
-
-# publishDir = "docs"
