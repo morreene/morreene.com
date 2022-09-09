@@ -1,2 +1,35 @@
 /* your styles go here */
+body {
+    /* background-color: blue; */
+}
 
+
+.col-md-3 {
+    width: 15%;
+    width: 25em;
+}
+
+#sidebar {
+    padding: 6.2222222222em 2.2222222222em 2.4444444444em 2.2222222222em;
+}
+
+.sidebar-heading a {
+font-size: 30px;
+}
+
+.sidebar-p {
+    font-size: 16px;
+}
+
+
+.copyright {
+    margin-top: 50px;
+    /* display: block;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    bottom: 0; */
+
+
+}
