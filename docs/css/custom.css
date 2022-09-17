@@ -33,3 +33,16 @@ font-size: 30px;
         font-size: 18px;
     }
 }
+
+.logo {
+         background: url("/img/logo.png") no-repeat;
+         width: 200px;
+         height: 100px;
+
+
+
+         display: block;
+         text-indent: -9999px;
+
+
+}
