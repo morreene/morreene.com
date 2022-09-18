@@ -1,10 +1,6 @@
 +++
 date = "2016-11-06T13:00:25+05:30"
-title = "Get in touch"
+title = "Contact"
 +++
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then
-
-Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed.
-
-Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. 
+Nulla bibendum nec nisi vel vestibulum. Cras luctus massa lectus, at accumsan lacus luctus et. Donec pretium, libero ut aliquet rhoncus, massa purus elementum nunc, id auctor nisl sapien sit amet est. Fusce eleifend mi quis nunc porta cursus. Praesent nec velit rutrum, porta turpis non, tempor ligula. Duis sagittis metus nec orci tempus tristique. Aliquam pellentesque nunc tellus, ut vulputate turpis tristique quis. Quisque ut velit volutpat, egestas augue nec, condimentum mi.
