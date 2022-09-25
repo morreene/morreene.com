@@ -2,7 +2,7 @@
 date = "2016-11-05T21:05:33+05:30"
 title = "About"
 +++
-<embed type="text/html" src="https://photos.morreene.com/" style="width:100%;height:100vh;">
+<!-- <embed type="text/html" src="https://photos.morreene.com/" style="width:100%;height:100vh;"> -->
 <!-- <embed type="text/html" src="https://photos.morreene.com/" width="800" height="500"> -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. **Vestibulum** a tempor dolor, id auctor lacus. Donec at leo congue, molestie ligula eget, maximus quam. Maecenas nec feugiat ligula. Ut tincidunt dolor ultricies enim porta placerat. Integer in massa malesuada, faucibus erat a, vehicula dui. Cras eu dolor risus. Maecenas ex lacus, porta quis posuere non, scelerisque vitae justo. Morbi tristique eget ante ac convallis. Etiam malesuada metus et urna tincidunt, et venenatis lectus sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at odio leo. Sed fringilla a nunc congue gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
