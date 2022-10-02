@@ -56,3 +56,20 @@ body {
  flex-grow: 1;
  background-color: pink;
 } */
+/**
+ * Noe
+ */
+@font-face {
+  font-family: 'Noe Display';
+  src: url('/fonts/noe-display-bold.woff2') format('woff2'),
+  url('/fonts/noe-display-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noe Display';
+  src: url('/fonts/noe-display-bold-italic.woff2') format('woff2'),
+    url('/fonts/noe-display-bold-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
